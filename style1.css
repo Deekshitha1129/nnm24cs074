@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Light gray background */
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    height: 90vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .profile-header {
+    padding: 10px;
+    background-color: #112A46; /* Dark blue */
+    color: white;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 120px;
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #ACC8E0; /* Soft light blue */
+  }
+  
+  .profile-body {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .bio {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .profile-footer {
+    padding: 40px;
+    background-color: #ACC8E0; /* Soft light blue */
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #112A46; /* Dark blue for links */
+    font-weight: bold;
+  }
+
+  #UNI{
+    font: arial;
+
+  }
+  
+  .social-link:hover {
+    text-decoration: underline;
+    color: #0A1C2A; /* Slightly darker blue on hover */
+  }
+  
+  .education{
+    background-color: #ACC8E0;
+    width: 1000px;
+  }
+
