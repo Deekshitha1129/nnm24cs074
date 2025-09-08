@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: sub;
+            padding: 10%;
+            overflow: hidden;}
+        
+        .Scrollable-text{
+            position: absolute;
+            white-space: nowrap;
+            animation: scrollText 100s linear infinite;
+        }
+
+        .blinkable-text{
+            animation: blinkText 20s alternate infinite;
+        }
+
+        @keyframes scrollText {
+            0% { 
+                 transform: translatex(100%);
+        }
+        100% { 
+            transform: translatex(-100%);
+   }}
+ 
+        @keyframes blinkText {
+            0% ,100%{ 
+           opacity:1;
+         }
+            50% { 
+               opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class ="Scrollable-text">
+        this is a scrollable text which scrolls from left to right </div>
+
+    <div class="blinkable-text">
+        <p>This is  a blinking text ,it  will blink at a regular interval.</p>
+        <p>show results in a different line</p>
+
+    </div>
+</body>
+</html>
